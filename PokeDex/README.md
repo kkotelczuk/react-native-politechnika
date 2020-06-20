@@ -71,3 +71,23 @@ There is also a shortcut to reload app:
 14. Change item to a button
 15. On button, press fetch pokemon data
 16. After fetch display alert with OK button and pokemon `id, type or types and weight`
+
+## Lab 2
+
+1. Install: [https://github.com/react-native-community/async-storage](https://github.com/react-native-community/async-storage)
+2. Set and get data form AsyncStorage
+3. Load full list of pokemons from API to asyncStore
+4. Create hook for asyncStorage operations
+5. Use this hook ^^
+6. Add FlatList header
+7. Add input to header and set it's placeholder to 'search'
+8. Add filtering pokemons function
+9. Pass function to list header with filtering stored pokemons
+10. Add debounce to filtering function
+11. Add hook for debouncing and use it
+12. Add refresh action: load whole pokemons list and storeIt in AsyncStorage
+13. Add background task for loading pokemons details:
+    - show spinner while loading image
+    - save data in asyncstore
+    - if data is in asyncStore do not load new one
+    - show image, when it is in asyncStore
