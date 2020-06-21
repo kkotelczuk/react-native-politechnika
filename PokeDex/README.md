@@ -74,6 +74,8 @@ There is also a shortcut to reload app:
 
 ## Lab 2
 
+[https://www.figma.com/file/oIEzr0GaNDfcBKsLIhVMsi/pokedex-app-iphone-x-daniel-motta?node-id=0%3A1](https://www.figma.com/file/oIEzr0GaNDfcBKsLIhVMsi/pokedex-app-iphone-x-daniel-motta?node-id=0%3A1)
+
 1. Install: [https://github.com/react-native-community/async-storage](https://github.com/react-native-community/async-storage)
 2. Set and get data form AsyncStorage
 3. Load full list of pokemons from API to asyncStore
@@ -83,9 +85,9 @@ There is also a shortcut to reload app:
 7. Add input to header and set it's placeholder to 'search'
 8. Add filtering pokemons function
 9. Pass function to list header with filtering stored pokemons
-10. Add debounce to filtering function
+10. Add debounce to filtering function: [https://css-tricks.com/debouncing-throttling-explained-examples/](https://css-tricks.com/debouncing-throttling-explained-examples/)
 11. Add hook for debouncing and use it
-12. Add refresh action: load whole pokemons list and storeIt in AsyncStorage
+12. Add refresh action: load whole pokemons list and store it in AsyncStorage
 13. Add background task for loading pokemons details:
     - show spinner while loading image
     - save data in asyncstore
