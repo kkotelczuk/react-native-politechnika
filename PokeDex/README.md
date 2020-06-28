@@ -93,3 +93,17 @@ There is also a shortcut to reload app:
     - save data in asyncstore
     - if data is in asyncStore do not load new one
     - show image, when it is in asyncStore
+
+## Lab 3
+
+1. Create hook for asyncStorage operations
+2. Add background task for loading pokemons details:
+   - show spinner while loading image
+   - save data in asyncstore
+   - if data is in asyncStore do not load new one
+   - show image, when it is in asyncStore
+3. Add Navigation
+   - HomeScreen
+   - DetailsScreen
+   - Stack navigation
+4. Add Pokemon Details Page
